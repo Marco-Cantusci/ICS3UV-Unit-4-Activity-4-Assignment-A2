@@ -30,15 +30,15 @@ func main() {
 
 	// selecting mathematical operation
 	fmt.Println(
-		"Which operation would you like to perform today? (Select by typing the letter in front of the operation.)",
-		"A. Add",
-		"B. Subtract",
-		"C. Multiply",
-		"D. Divide",
-		"E. Absolute value",
-		"F. Round",
-		"G. Raise to an exponent",
-		"H. Square root",
+		"Which operation would you like to perform today? (Select by typing the letter in front of the operation.)\n",
+		"A. Add\n",
+		"B. Subtract\n",
+		"C. Multiply\n",
+		"D. Divide\n",
+		"E. Absolute value\n",
+		"F. Round\n",
+		"G. Raise to an exponent\n",
+		"H. Square root\n",
 	)
 
 	// input

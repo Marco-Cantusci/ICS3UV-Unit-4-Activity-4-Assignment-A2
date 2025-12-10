@@ -7,15 +7,15 @@
 
 // print out options
 console.log(
-  "Which operation would you like to perform today? (Select by typing the letter in front of the operation.)",
-  "A. Add",
-  "B. Subtract",
-  "C. Multiply",
-  "D. Divide",
-  "E. Absolute value",
-  "F. Round",
-  "G. Raise to an exponent",
-  "H. Square root",
+  "Which operation would you like to perform today? (Select by typing the letter in front of the operation.)\n",
+  "A. Add\n",
+  "B. Subtract\n",
+  "C. Multiply\n",
+  "D. Divide\n",
+  "E. Absolute value\n",
+  "F. Round\n",
+  "G. Raise to an exponent\n",
+  "H. Square root\n",
 );
 
 // input
@@ -73,10 +73,10 @@ if (choice == "A") {
   const result = Math.round(num1Number);
   console.log(`The rounded value of ${num1Number} = ${result}\n`);
 } else if (choice == "G") { // exponent
-  const num1String: string = prompt("Enter first number: ") || ("0");
+  const num1String: string = prompt("Enter base number: ") || ("0");
   const num1Number: number = parseFloat(num1String);
 
-  const num2String: string = prompt("Enter second number: ") || ("0");
+  const num2String: string = prompt("Enter exponent: ") || ("0");
   const num2Number: number = parseFloat(num2String);
 
   const result = Math.pow(num1Number, num2Number);
